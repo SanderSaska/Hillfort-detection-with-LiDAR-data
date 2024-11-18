@@ -70,7 +70,7 @@ def process_csv(input_csv, output_dir='lazFiles'):
         os.makedirs(output_dir)
         logging.info(f"Created output directory: {output_dir}")
 
-    skipping_ruudunumbrid = [i.split('_')[0] for i in os.listdir('lazFiles')]
+    skipping_ruudunumbrid = [i.split('_')[0] for i in os.listdir(output_dir)]
     counter = 0
     with open(input_csv, newline='', encoding='utf-8') as csvfile:
         reader = csv.reader(csvfile)
