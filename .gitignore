@@ -1,5 +1,6 @@
 __pycache__
 data/lazFiles
+data/classified_lazFiles
 data/temp
 data/kpois/*
 !data/kpois/20241117-kma_avalik_muinsuskaitse_241_1007_shp.zip
