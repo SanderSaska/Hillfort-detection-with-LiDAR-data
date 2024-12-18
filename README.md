@@ -78,13 +78,13 @@ Training on downsampled data took 800 minutes = 13 hours and 40 minutes. Each ep
 
 ![](data/results/cm_1.png)
 
-The classifier has a high rate of correctly identifying non-hillfort points $89\%$, but poor performance when identifying hillforts, with only $10\%$ of true hillfort points being correctly classified. The model has many false negatives $90\%$, meaning it misses most of the hillfort points.
+The classifier has a high rate of correctly identifying non-hillfort points 89%, but poor performance when identifying hillforts, with only 10% of true hillfort points being correctly classified. The model has many false negatives 90%, meaning it misses most of the hillfort points.
 
 ### Overall
 
 ![](data/results/cm_total.png)
 
-On the overall lidar data we had, the classifier could correctly classify $28\%$ of true hillfort points and $84\%$ of true non-hillfort points. The model still has many false negatives $72\%$, but there are not much $16\%$ false positives.
+On the overall lidar data we had, the classifier could correctly classify 28% of true hillfort points and 84% of true non-hillfort points. The model still has many false negatives 72%, but there are not much 16% false positives.
 
 The classifier performs well on non-hillfort points but struggles significantly with hillfort classification. The high false negative rate suggests that the model may require further refinement, including potential adjustments to data processing (like downsampling), model architecture, hyperparameters, or longer training durations.
 
