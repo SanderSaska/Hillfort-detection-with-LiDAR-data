@@ -83,6 +83,7 @@ The classifier has a high rate of correctly identifying non-hillfort points $89\
 ### Overall
 
 ![](data/results/cm_total.png)
+
 On the overall lidar data we had, the classifier could correctly classify $28\%$ of true hillfort points and $84\%$ of true non-hillfort points. The model still has many false negatives $72\%$, but there are not much $16\%$ false positives.
 
 The classifier performs well on non-hillfort points but struggles significantly with hillfort classification. The high false negative rate suggests that the model may require further refinement, including potential adjustments to data processing (like downsampling), model architecture, hyperparameters, or longer training durations.
